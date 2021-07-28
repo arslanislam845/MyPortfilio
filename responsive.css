@@ -1,0 +1,221 @@
+
+
+@media only screen and (max-width:1050px){
+    nav{
+        display: grid; 
+        
+    }
+    .h-nav-1{
+        height:26rem; 
+        margin-bottom: 4rem;
+    }
+    .logo-heading {
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: var(--black-color);
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    .nav-items ul{
+      margin-top: -2rem;
+      display: grid;
+      margin-left: -2rem;
+      margin-right: 10rem;
+      padding-right: 4rem;
+      justify-content: center;
+      opacity: 1;
+     
+    }
+   
+    .burger{
+        display: block;
+    }
+
+    .get-in-touch {
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+    .h-nav-1{
+        height:4rem;   
+    } 
+    .v-class{
+       visibility: hidden;
+    } 
+
+
+    
+
+.content {
+    display: grid;
+}
+
+
+.model img {
+    margin-top: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+
+.main-text {
+    text-align: center;
+    margin-top: -2rem;
+    width: 31.25;
+    font-weight:500
+    
+}
+
+.main-text h1 {
+    font-size: 2.5em;
+    margin: 0px 0px 10px 0px;
+    line-height: 3.75rem;
+   
+}
+
+.main-text p {
+    color: var(--light-gray-color);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.portfolio-botton{
+    width: 11.875rem;
+    height: 2.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+    color: var(--white-main-color);
+    background-color: var(--main-bg-color);
+    border-radius: 0.3125rem;
+  
+}
+
+.portfolio-botton:hover{
+  background-color:  #034d4d;
+  font-weight: 500;
+}
+
+
+
+
+/* Skills Section */
+#skills {
+    display: grid;
+}
+
+.skill-img {
+    width: 90%;
+    height: 90%;
+    margin-top: 11.25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-text {
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.skill-heading span {
+    color: var(--main-bg-color);
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.skill-heading h2 {
+    color: var(--dark-gray-color);
+    font-size: 3.3rem;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.s-box-container {
+    margin-top: 5rem;
+}
+
+.skill-box {
+    display: flex;
+    margin: 25px 0px;
+}
+
+.s-box-icon i {
+    width: 3rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/* Projects Section */
+
+
+.project-showcase {
+    display: grid;
+    
+}
+
+
+
+#client{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height:100%;
+    margin: 0px auto 100px auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+}
+
+.client-showcase {
+    display: grid;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.client {
+  margin-bottom: 2.5rem;
+}
+
+.client-btn {
+ margin-bottom: 1rem;
+}
+
+
+#contact img {
+ margin-top: -1rem;
+ height: auto;
+ width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.contact-input a {
+    width: 200px;
+    height: 30px;
+    background-color: var(--main-bg-color);
+    color: var(--white-main-color);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    margin: auto 10px;
+}
+
+
+}
